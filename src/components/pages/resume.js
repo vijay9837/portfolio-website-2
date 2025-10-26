@@ -12,7 +12,7 @@ function Resume() {
         mirror: true
     })
     return (
-        <div id="Resume" className="w-100 min-vh-100 py-lg-5 py-3 gap-4 d-flex flex-column  ">
+        <div id="Resume" className="w-100 h-auto py-lg-5 py-3 gap-4 d-flex flex-column  ">
             <div
                 data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom"
@@ -22,7 +22,7 @@ function Resume() {
             <section className="d-flex flex-column position-relative  ">
                 <h1
                     data-aos="fade-up"
-                    data-aos-anchor-placement="70%" style={{ letterSpacing: "2px" }} className="text-light fs-about-h1-text fw-light ">
+                    data-aos-anchor-placement="70%"  className="text-light w-100 component-heading-text fw-light ">
                     Education & <span className="text-green">Experience</span>
                 </h1>
                 <div className="py-4">

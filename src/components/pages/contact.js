@@ -37,17 +37,17 @@ function Contact() {
     });
 
     return (
-        <div id="Contact" className="w-100 min-vh-100 h-auto   d-flex gap-5 flex-column py-lg-5 py-3 mb-4 position-relative">
+        <div id="Contact" className="w-100 h-auto   d-flex gap-lg-5 gap-2 flex-column py-lg-5 py-3  position-relative">
             <div data-aos="fade-up "
                 data-aos-anchor-placement="bottom-bottom" className="horiz-navbar position-relative d-flex justify-content-between align-items-center">
                 <p className="text-light rounded-half border border-secondary fs-6 fw-light d-flex align-items-center gap-2 px-3 py-1"><MdOutlineMailOutline />CONTACT</p>
                 {emailsent ? <Emailsent /> : ""}
 
             </div>
-            <section className="d-flex flex-column gap-4 w-85 ">
+            <section className="d-flex flex-column gap-lg-4 gap-2 w-100 ">
                 <h1
                     data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom" className="text-light fw-light fs-about-h1-text">Let's Work <span className="text-green">Together!</span> </h1>
+                    data-aos-anchor-placement="bottom-bottom" className="text-light fw-light w-100 component-heading-text">Let's Work <span className="text-green">Together!</span> </h1>
                 <h2
                     data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom"

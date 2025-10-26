@@ -13,7 +13,7 @@ function Services() {
         mirror: true
     })
     return (
-        <div id="Services" className="w-100 min-vh-100  d-flex flex-column gap-5">
+        <div id="Services" className="w-100 h-auto  d-flex flex-column gap-lg-5 gap-2">
             <div
                 data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom"
@@ -26,7 +26,7 @@ function Services() {
             <section className="d-flex flex-column gap-4">
                 <h1
                     style={{ letterSpacing: "1px" }}
-                    className="fs-about-h1-text fw-light text-light"
+                    className="w-100 component-heading-text fw-light text-light"
                 >
                     My <span className="text-green">Specializations</span>
                 </h1>

@@ -17,7 +17,7 @@ function Skills() {
     });
 
   return (
-    <div id="Skills" className="w-100 min-vh-100 d-flex align-items-center justify-content-center gap-3 flex-column py-4">
+    <div id="Skills" className="w-100 h-auto d-flex align-items-center justify-content-center gap-3 flex-column py-4">
       <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" className="w-100 horiz-navbar d-flex justify-content-between align-items-center">
         <p className="text-light rounded-half border border-secondary fs-6 fw-light d-flex align-items-center gap-2 px-3 py-1">
           <RiShapesFill /> Skills
@@ -25,32 +25,32 @@ function Skills() {
       </div>
 
       <section className="d-flex gap-3 flex-column w-100 align-items-center justify-content-center">
-        <h1 style={{ letterSpacing: "2px" }} className=" w-100 text-light fs-about-h1-text fw-light w-85" data-aos="fade-up">
+        <h1  className="text-light w-100 component-heading-text fw-light " data-aos="fade-up">
           My <span className="text-green">Advantages</span>
         </h1>
 
-        <div className="d-flex flex-wrap gap-5 align-items-center justify-content-center">
-          <div style={{ borderRadius: "70px" }} data-aos="fade-right" className="skills-tabs p-lg-5 p-4">
+        <div className="d-flex flex-wrap gap-4 align-items-center">
+          <div  data-aos="fade-right" className="skills-tabs ">
             <IoLogoJavascript className="fs-about-h1-text my-4 text-yellow" />
           </div>
 
-          <div style={{ borderRadius: "70px" }} data-aos="fade-down" className="skills-tabs p-lg-5 p-4">
+          <div  data-aos="fade-down" className="skills-tabs ">
             <FaReact className="fs-about-h1-text my-4 text-skyblue" />
           </div>
 
-          <div style={{ borderRadius: "70px" }} data-aos="zoom-in" className="skills-tabs p-lg-5 p-4">
+          <div  data-aos="zoom-in" className="skills-tabs ">
             <SiMongodb className="fs-about-h1-text my-4 text-darkgreen" />
           </div>
 
-          <div style={{ borderRadius: "70px" }} data-aos="zoom-in-left" className="skills-tabs p-lg-5 p-4">
+          <div  data-aos="zoom-in-left" className="skills-tabs ">
             <IoLogoNodejs className="fs-about-h1-text my-4 text-nodejs" />
           </div>
 
-          <div style={{ borderRadius: "70px" }} data-aos="zoom-in-right" className="skills-tabs p-lg-5 p-4">
+          <div  data-aos="zoom-in-right" className="skills-tabs ">
             <RiTailwindCssFill className="fs-about-h1-text my-4 text-tailwind" />
           </div>
 
-          <div style={{ borderRadius: "70px" }} data-aos="fade-up" className="skills-tabs p-lg-5 p-4">
+          <div  data-aos="fade-up" className="skills-tabs ">
             <SiExpress className="fs-about-h1-text my-4 text-express" />
           </div>
         </div>
