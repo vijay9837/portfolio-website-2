@@ -1,38 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100vw;
+}
+.xtrabig-heading-text {
+  font-size: 5.3rem;
+}
+.rounded-half {
+  border-radius: 40px;
+}
+.bg-green {
+  background-color: #28e98c;
+}
+.border-green {
+  border-color: #28e98c;
+}
+.border-grey {
+  border: 1px solid #858585;
+}
+.my-button {
+  border: 1px solid #28e98c;
+  transition: all 0.3s ease;
+}
+
+.service-div {
+  border: 1px solid #6c757d;
+  border-radius: 1rem;
+  transition: all 0.3s linear;
+}
+
+.service-div:hover {
+  transition: all 0.3s linear;
+  border: 1px solid #28e98c;
+}
+
+.my-button:hover {
+  color: white;
+  border-color: #28e98c;
+}
+.bg-grey {
+  background-color: #899999;
+}
+
+.bg-primary {
+  background-color: #1f1f1f;
+}
+.font-size-p {
+  font-size: 15px;
+}
+
+.w-90 {
+  width: 90%;
+}
+.w-95 {
+  width: 95%;
+}
+.w-85 {
+  width: 85%;
+}
+.w-45 {
+  width: 45%;
+}
+.w-80 {
+  width: 80%;
+}
+.h-90 {
+  height: 90%;
+}
+.h-30 {
+  height: 30%;
+}
+.h-40 {
+  height: 40%;
+}
+.h-20 {
+  height: 20%;
+}
+
+.text-grey {
+  color: #6c757d;
+}
+.text-green {
+  color: #28e98c;
+}
+.text-yellow {
+  color: yellow;
+}
+.text-skyblue {
+  color: skyblue;
+}
+.text-darkgreen {
+  color: green;
+}
+.text-nodejs {
+  color: #87cf30;
+}
+.text-express {
+  color: #f7e024;
+}
+.text-tailwind {
+  color: #13b8d5;
+}
+
+.outline-0 {
+  outline: none;
+}
+.TbMenu-btn {
+  font-size: 3.5rem;
+  border: 1px solid #6c757d;
+  transition: all linear 0.3s;
+}
+
+.TbMenu-btn:hover {
+  transition: all linear 0.3s;
+  border: 1px solid #46ed3a;
+}
+
+.skills-tabs {
+  font-size: 3.5rem;
+  border: 1px solid #6c757d;
+  transition: border 0.3s linear;
+}
+
+.skills-tabs:hover {
+  border: 1px solid #28e98c;
+}
+
+.nav-link-custom {
+  color: #6c757d;
+}
+
+.nav-link-custom svg {
+  color: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link-custom:hover svg {
+  color: #28e98c;
+}
+.icon-custom-btn {
+  border: 1px solid #899999;
+  transition: all 0.3s;
+}
+.icon-custom-btn:hover {
+  border-color: #28e98c;
+  color: #28e98c;
 }
 
-@keyframes App-logo-spin {
+.midium-heading-text {
+  font-size: 3rem;
+}
+
+.myproject-rotate {
+  animation: spin-rotate infinite linear 6s;
+}
+.personalcard-div {
+  position: fixed;
+}
+.email-alert{
+  animation:email-alert-animation linear 1.5s
+}
+@keyframes email-alert-animation {
+  from{
+    opacity: 0;
+    transform: translateY(20%)
+  }
+  to{
+    opacity: 1;
+    transform: translateY(-20%);
+  }
+}
+@keyframes spin-rotate {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+
+.hover-green {
+  color: #6c757d;
+  transition: all 0.3s;
+}
+
+.hover-green:hover {
+  color: #28e98c;
+}
+
+.contactus-email {
+  animation: contactus-email-animation linear;
+  animation-timeline: view();
+}
+.my-project-rotate-img {
+  padding: 5px;
+  width: 150px;
+  height: 149px;
+}
+.IoArrowDown {
+  top: 50px;
+  left: 55px;
+}
+@keyframes contactus-email-animation {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.midium-heading-text {
+  font-size: 2.5rem;
+}
+.about-section-p {
+  font-size: 1.5rem;
+}
+.menubar-btn {
+  background-color: #1f1f1f;
+  border: 1px solid #6c757d;
+  padding: 10px;
+  font-size: 3.2rem;
+  top: 60px;
+  right: 95px;
+  transition: all 0.3s linear;
+}
+.menubar-btn:hover {
+  border: 1px solid #28e98c;
+}
+.sidenavbar-container {
+  position: fixed;
+  top: 0;
+  width: 25%;
+  right: -100%;
+  height: 100%;
+  transition: right 0.3s ease;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenavbar-container.active {
+  right: 0;
+}
+.profession{
+  font-size: 15px;
+}
+.contact-send-btn{
+  font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+  .xtrabig-heading-text {
+    font-size: 4rem;
+  }
+  .IoArrowDown {
+    top: 50px;
+    left: 55px;
+  }
+  .contact-send-btn{
+  font-size: 18px;
+}
+}
+
+@media (max-width: 992px) {
+  .personalcard-div {
+    position: static;
+  }
+  .sidenavbar-container {
+    width: 50%;
+  }
+  .contact-send-btn{
+  font-size: 16px;
+}
+}
+@media (max-width: 600px) {
+  .IoArrowDown {
+    top: 55px;
+    left: 60px;
+  }
+}
+@media (max-width: 376px) {
+  .personalcard-div {
+    position: static;
+  }
+  .xtrabig-heading-text {
+    font-size: 3rem;
+  }
+  .fs-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px !important;
+  }
+  .my-project-rotate-img {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+  }
+  .midium-heading-text {
+    font-size: 2.5rem;
+  }
+  .contact-input-text {
+    font-size: 14px;
+  }
+  .about-section-p {
+    font-size: 16px;
+  }
+  .menubar-btn {
+    font-size: 2.5rem;
+    top: 20px;
+    right: 40px;
+  }
+  .sidenavbar-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    transition: right 0.3s ease;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .IoArrowDown {
+    top: 35px;
+    left: 35px;
+  }
+  .contact-send-btn{
+  font-size: 12px;
+}
 }
