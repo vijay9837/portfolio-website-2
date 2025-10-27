@@ -29,7 +29,7 @@ function Skills() {
           My <span className="text-green">Advantages</span>
         </h1>
 
-        <div className="d-flex flex-wrap gap-4 align-items-center">
+        <div className="d-flex flex-wrap gap-4 align-items-center  justify-content-lg-start justify-content-center">
           <div  data-aos="fade-right" className="skills-tabs ">
             <IoLogoJavascript className="fs-about-h1-text my-4 text-yellow" />
           </div>

@@ -5,6 +5,7 @@
   font-family: "Roboto";
 }
 .App {
+  scroll-behavior: smooth;
   min-height: 100vh;
   width: 100vw;
 }
@@ -247,13 +248,14 @@
   position: fixed;
   top: 0;
   width: 25%;
-  right: -100%;
+  right: -25%;
   height: 100%;
-  transition: right 0.3s ease;
+  transition: right 0.7s ease;
   z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 .sidenavbar-container.active {
@@ -296,6 +298,18 @@
   .contact-send-btn {
     font-size: 16px;
   }
+    .sidenavbar-container {
+    position: fixed;
+    width: 50%;
+    top: 0;
+    right: -50%;
+    height: 100%;
+    transition: right 0.7 ease;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media (max-width: 600px) {
   .IoArrowDown {
@@ -303,7 +317,7 @@
     left: 60px;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 432px) {
   .component-heading-text {
     font-size: 2.3rem;
   }
@@ -335,8 +349,8 @@
   }
   .menubar-btn {
     font-size: 2.5rem;
-    top: 20px;
-    right: 40px;
+    top: 35px;
+    right: 35px;
   }
   .sidenavbar-container {
     position: fixed;
@@ -344,7 +358,7 @@
     top: 0;
     right: -100%;
     height: 100%;
-    transition: right 0.3s ease;
+    transition: right 0.7 ease;
     z-index: 999;
     display: flex;
     align-items: center;

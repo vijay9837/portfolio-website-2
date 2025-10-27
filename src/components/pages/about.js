@@ -13,7 +13,7 @@ function About() {
         <div id="About" className="w-100 h-auto py-lg-5 py-2 d-flex flex-column gap-lg-5 gap-2  ">
             <div 
                 data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom"
+                data-aos-anchor-placement="95%"
                 className="  horiz-navbar d-flex justify-content-between align-items-center">
                 <p className="  text-light rounded-half border border-secondary fs-6 fw-light d-flex align-items-center gap-2 px-3 py-1"><MdPerson />ABOUT</p>
             </div>

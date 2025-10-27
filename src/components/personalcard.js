@@ -6,7 +6,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function Personalcard() {
     return (
-        <div className=" h-90 col-lg-10 col-xl-11 gap-3 col-md-9 rounded-5  border-grey  d-flex flex-column align-items-center justify-content-between    p-4">
+        <div className=" h-90 col-lg-10 col-xl-11 gap-3 col-md-9 rounded-5  border-grey  d-flex flex-column align-items-center justify-content-between    p-4 m-lg-0 m-1">
             <div className="w-100 d-flex justify-content-between align-items-center">
                 <h1 className="text-light name col-xl-4 col-sm-3  ">Vijay</h1>
                 <p className="text-light profession col-xl-4 col-4 col-sm-2 col-lg-5  text-end lh-1">Mern Stack Developer</p>

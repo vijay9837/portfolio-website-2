@@ -12,6 +12,7 @@ import { GrProjects } from "react-icons/gr";
 import { HashLink as Link } from "react-router-hash-link"
 
 function Sidenavbar({ toggleSidenav }) {
+    
     return (
         <div style={{transition:"all .3s linear"}} className="w-100 h-100 bg-black  d-flex flex-column justify-content-center align-items-center">
             <div className="w-50 h-75 d-flex flex-column gap-5  ">
